@@ -1,8 +1,8 @@
-基于Nextflow的流程，用于下载NCBI_SRA数据：<br>
-使用方法：<br>
 ```
-git clone https://github.com/bewater97/nf_sratools<br>
-只需要修改 nextflow.config，配置邮箱信息，其他使用方法见下。<br>
+基于Nextflow的流程，用于下载NCBI_SRA数据：
+使用方法：
+git clone https://github.com/bewater97/nf_sratools
+只需要修改 nextflow.config，配置邮箱信息，其他使用方法见下。
 ```
 ```
 *********************************************************************************************
