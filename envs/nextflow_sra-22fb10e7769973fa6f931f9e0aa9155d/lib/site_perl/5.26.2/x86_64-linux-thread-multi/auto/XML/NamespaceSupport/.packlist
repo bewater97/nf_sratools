@@ -1,0 +1,2 @@
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/lib/site_perl/5.26.2/XML/NamespaceSupport.pm relocate_as=../../../../XML/NamespaceSupport.pm
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/man/man3/XML::NamespaceSupport.3 relocate_as=../../../../../../../man/man3/XML::NamespaceSupport.3

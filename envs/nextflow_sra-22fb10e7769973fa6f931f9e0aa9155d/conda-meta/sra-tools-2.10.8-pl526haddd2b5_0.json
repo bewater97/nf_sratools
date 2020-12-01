@@ -1,0 +1,943 @@
+{
+  "build": "pl526haddd2b5_0",
+  "build_number": 0,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "curl",
+    "hdf5 >=1.10.5,<1.10.6.0a0",
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "libxml2 >=2.9.10,<2.10.0a0",
+    "ncbi-ngs-sdk",
+    "ossuuid",
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-uri",
+    "perl-xml-libxml"
+  ],
+  "extracted_package_dir": "/home/yehz/anaconda3/pkgs/sra-tools-2.10.8-pl526haddd2b5_0",
+  "features": "",
+  "files": [
+    "bin/.sra-tools-post-link.sh",
+    "bin/abi-dump",
+    "bin/abi-dump.2",
+    "bin/abi-dump.2.10.8",
+    "bin/align-cache",
+    "bin/align-cache.2",
+    "bin/align-cache.2.10.8",
+    "bin/align-info",
+    "bin/align-info.2",
+    "bin/align-info.2.10.8",
+    "bin/bam-load",
+    "bin/bam-load.2",
+    "bin/bam-load.2.10.8",
+    "bin/cache-mgr",
+    "bin/cache-mgr.2",
+    "bin/cache-mgr.2.10.8",
+    "bin/cg-load",
+    "bin/cg-load.2",
+    "bin/cg-load.2.10.8",
+    "bin/fasterq-dump",
+    "bin/fasterq-dump-orig",
+    "bin/fasterq-dump-orig.2.10.8",
+    "bin/fasterq-dump.2",
+    "bin/fasterq-dump.2.10.8",
+    "bin/fastq-dump",
+    "bin/fastq-dump-orig",
+    "bin/fastq-dump-orig.2.10.8",
+    "bin/fastq-dump.2",
+    "bin/fastq-dump.2.10.8",
+    "bin/illumina-dump",
+    "bin/illumina-dump.2",
+    "bin/illumina-dump.2.10.8",
+    "bin/kar",
+    "bin/kar.2",
+    "bin/kar.2.10.8",
+    "bin/kdbmeta",
+    "bin/kdbmeta.2",
+    "bin/kdbmeta.2.10.8",
+    "bin/kget",
+    "bin/kget.2",
+    "bin/kget.2.10.8",
+    "bin/latf-load",
+    "bin/latf-load.2",
+    "bin/latf-load.2.10.8",
+    "bin/magic",
+    "bin/md5cp",
+    "bin/md5cp.2",
+    "bin/md5cp.2.10.8",
+    "bin/prefetch",
+    "bin/prefetch-orig",
+    "bin/prefetch-orig.2.10.8",
+    "bin/prefetch.2",
+    "bin/prefetch.2.10.8",
+    "bin/rcexplain",
+    "bin/rcexplain.2",
+    "bin/rcexplain.2.10.8",
+    "bin/read-filter-redact",
+    "bin/read-filter-redact.2",
+    "bin/read-filter-redact.2.10.8",
+    "bin/sam-dump",
+    "bin/sam-dump-orig",
+    "bin/sam-dump-orig.2.10.8",
+    "bin/sam-dump.2",
+    "bin/sam-dump.2.10.8",
+    "bin/sff-dump",
+    "bin/sff-dump.2",
+    "bin/sff-dump.2.10.8",
+    "bin/sra-pileup",
+    "bin/sra-pileup-orig",
+    "bin/sra-pileup-orig.2.10.8",
+    "bin/sra-pileup.2",
+    "bin/sra-pileup.2.10.8",
+    "bin/sra-sort",
+    "bin/sra-sort-cg",
+    "bin/sra-sort-cg.2",
+    "bin/sra-sort-cg.2.10.8",
+    "bin/sra-sort.2",
+    "bin/sra-sort.2.10.8",
+    "bin/sra-stat",
+    "bin/sra-stat.2",
+    "bin/sra-stat.2.10.8",
+    "bin/srapath",
+    "bin/srapath-orig",
+    "bin/srapath-orig.2.10.8",
+    "bin/srapath.2",
+    "bin/srapath.2.10.8",
+    "bin/sratools",
+    "bin/sratools.2",
+    "bin/sratools.2.10.8",
+    "bin/test-sra",
+    "bin/test-sra.2",
+    "bin/test-sra.2.10.8",
+    "bin/vdb-config",
+    "bin/vdb-config.2",
+    "bin/vdb-config.2.10.8",
+    "bin/vdb-copy",
+    "bin/vdb-copy.2",
+    "bin/vdb-copy.2.10.8",
+    "bin/vdb-decrypt",
+    "bin/vdb-decrypt.2",
+    "bin/vdb-decrypt.2.10.8",
+    "bin/vdb-diff",
+    "bin/vdb-diff.2",
+    "bin/vdb-diff.2.10.8",
+    "bin/vdb-dump",
+    "bin/vdb-dump-orig.2.10.8",
+    "bin/vdb-dump.2",
+    "bin/vdb-dump.2.10.8",
+    "bin/vdb-encrypt",
+    "bin/vdb-encrypt.2",
+    "bin/vdb-encrypt.2.10.8",
+    "bin/vdb-lock",
+    "bin/vdb-lock.2",
+    "bin/vdb-lock.2.10.8",
+    "bin/vdb-passwd",
+    "bin/vdb-passwd.2",
+    "bin/vdb-passwd.2.10.8",
+    "bin/vdb-unlock",
+    "bin/vdb-unlock.2",
+    "bin/vdb-unlock.2.10.8",
+    "bin/vdb-validate",
+    "bin/vdb-validate.2",
+    "bin/vdb-validate.2.10.8"
+  ],
+  "fn": "sra-tools-2.10.8-pl526haddd2b5_0.tar.bz2",
+  "license": "Public Domain",
+  "link": {
+    "source": "/home/yehz/anaconda3/pkgs/sra-tools-2.10.8-pl526haddd2b5_0",
+    "type": 1
+  },
+  "md5": "2f630479c7211345be24622b4bb9e621",
+  "name": "sra-tools",
+  "package_tarball_full_path": "/home/yehz/anaconda3/pkgs/sra-tools-2.10.8-pl526haddd2b5_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.sra-tools-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "c568506fd254a24b16911e6256ca2f3e0a5c4066b62565d87059d22cef1c2c09",
+        "sha256_in_prefix": "c568506fd254a24b16911e6256ca2f3e0a5c4066b62565d87059d22cef1c2c09",
+        "size_in_bytes": 1650
+      },
+      {
+        "_path": "bin/abi-dump",
+        "path_type": "softlink",
+        "sha256": "5b0543117065de0b46277e6798a7bf2f8d8d98328ac69cc7494a2b1908ebc5bf",
+        "size_in_bytes": 3736256
+      },
+      {
+        "_path": "bin/abi-dump.2",
+        "path_type": "softlink",
+        "sha256": "5b0543117065de0b46277e6798a7bf2f8d8d98328ac69cc7494a2b1908ebc5bf",
+        "size_in_bytes": 3736256
+      },
+      {
+        "_path": "bin/abi-dump.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "5b0543117065de0b46277e6798a7bf2f8d8d98328ac69cc7494a2b1908ebc5bf",
+        "sha256_in_prefix": "5b0543117065de0b46277e6798a7bf2f8d8d98328ac69cc7494a2b1908ebc5bf",
+        "size_in_bytes": 3736256
+      },
+      {
+        "_path": "bin/align-cache",
+        "path_type": "softlink",
+        "sha256": "6a37eb09be9abb05244ef11dd4758f682ed99f64297188ee1fa7b63acf3f6888",
+        "size_in_bytes": 9379200
+      },
+      {
+        "_path": "bin/align-cache.2",
+        "path_type": "softlink",
+        "sha256": "6a37eb09be9abb05244ef11dd4758f682ed99f64297188ee1fa7b63acf3f6888",
+        "size_in_bytes": 9379200
+      },
+      {
+        "_path": "bin/align-cache.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "6a37eb09be9abb05244ef11dd4758f682ed99f64297188ee1fa7b63acf3f6888",
+        "sha256_in_prefix": "6a37eb09be9abb05244ef11dd4758f682ed99f64297188ee1fa7b63acf3f6888",
+        "size_in_bytes": 9379200
+      },
+      {
+        "_path": "bin/align-info",
+        "path_type": "softlink",
+        "sha256": "24add47d8458aa4d84d477dbdd727f6daf5d722862ecbfa90c6f8076d80d6463",
+        "size_in_bytes": 3611360
+      },
+      {
+        "_path": "bin/align-info.2",
+        "path_type": "softlink",
+        "sha256": "24add47d8458aa4d84d477dbdd727f6daf5d722862ecbfa90c6f8076d80d6463",
+        "size_in_bytes": 3611360
+      },
+      {
+        "_path": "bin/align-info.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "24add47d8458aa4d84d477dbdd727f6daf5d722862ecbfa90c6f8076d80d6463",
+        "sha256_in_prefix": "24add47d8458aa4d84d477dbdd727f6daf5d722862ecbfa90c6f8076d80d6463",
+        "size_in_bytes": 3611360
+      },
+      {
+        "_path": "bin/bam-load",
+        "path_type": "softlink",
+        "sha256": "c1e58f429d2b33ab97b8ab5c432c445639a2d13c3e0cbcdd5896f4b669d5ec6a",
+        "size_in_bytes": 9580624
+      },
+      {
+        "_path": "bin/bam-load.2",
+        "path_type": "softlink",
+        "sha256": "c1e58f429d2b33ab97b8ab5c432c445639a2d13c3e0cbcdd5896f4b669d5ec6a",
+        "size_in_bytes": 9580624
+      },
+      {
+        "_path": "bin/bam-load.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "c1e58f429d2b33ab97b8ab5c432c445639a2d13c3e0cbcdd5896f4b669d5ec6a",
+        "sha256_in_prefix": "c1e58f429d2b33ab97b8ab5c432c445639a2d13c3e0cbcdd5896f4b669d5ec6a",
+        "size_in_bytes": 9580624
+      },
+      {
+        "_path": "bin/cache-mgr",
+        "path_type": "softlink",
+        "sha256": "90db2a1514a01a6c45e45cd98bf3ac445977ff4126f45c546e2c56e8bb3bdab7",
+        "size_in_bytes": 3603456
+      },
+      {
+        "_path": "bin/cache-mgr.2",
+        "path_type": "softlink",
+        "sha256": "90db2a1514a01a6c45e45cd98bf3ac445977ff4126f45c546e2c56e8bb3bdab7",
+        "size_in_bytes": 3603456
+      },
+      {
+        "_path": "bin/cache-mgr.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "90db2a1514a01a6c45e45cd98bf3ac445977ff4126f45c546e2c56e8bb3bdab7",
+        "sha256_in_prefix": "90db2a1514a01a6c45e45cd98bf3ac445977ff4126f45c546e2c56e8bb3bdab7",
+        "size_in_bytes": 3603456
+      },
+      {
+        "_path": "bin/cg-load",
+        "path_type": "softlink",
+        "sha256": "0512f2078a9b734d010d5b5001c17db4a4e4d5fb7af1f4e5887af437de548635",
+        "size_in_bytes": 3990904
+      },
+      {
+        "_path": "bin/cg-load.2",
+        "path_type": "softlink",
+        "sha256": "0512f2078a9b734d010d5b5001c17db4a4e4d5fb7af1f4e5887af437de548635",
+        "size_in_bytes": 3990904
+      },
+      {
+        "_path": "bin/cg-load.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "0512f2078a9b734d010d5b5001c17db4a4e4d5fb7af1f4e5887af437de548635",
+        "sha256_in_prefix": "0512f2078a9b734d010d5b5001c17db4a4e4d5fb7af1f4e5887af437de548635",
+        "size_in_bytes": 3990904
+      },
+      {
+        "_path": "bin/fasterq-dump",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/fasterq-dump-orig",
+        "path_type": "softlink",
+        "sha256": "9b1f006eca619b278acc2e648eebe7ef283a0d0292ce6f972739691b8b7bd19a",
+        "size_in_bytes": 3745016
+      },
+      {
+        "_path": "bin/fasterq-dump-orig.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "9b1f006eca619b278acc2e648eebe7ef283a0d0292ce6f972739691b8b7bd19a",
+        "sha256_in_prefix": "9b1f006eca619b278acc2e648eebe7ef283a0d0292ce6f972739691b8b7bd19a",
+        "size_in_bytes": 3745016
+      },
+      {
+        "_path": "bin/fasterq-dump.2",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/fasterq-dump.2.10.8",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/fastq-dump",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/fastq-dump-orig",
+        "path_type": "softlink",
+        "sha256": "66bf9b9c996cb69dcded2629a9a20ca71193eedcff158455340f59a9aebcea2f",
+        "size_in_bytes": 3762488
+      },
+      {
+        "_path": "bin/fastq-dump-orig.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "66bf9b9c996cb69dcded2629a9a20ca71193eedcff158455340f59a9aebcea2f",
+        "sha256_in_prefix": "66bf9b9c996cb69dcded2629a9a20ca71193eedcff158455340f59a9aebcea2f",
+        "size_in_bytes": 3762488
+      },
+      {
+        "_path": "bin/fastq-dump.2",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/fastq-dump.2.10.8",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/illumina-dump",
+        "path_type": "softlink",
+        "sha256": "b328f0f3da95a1ff1731d9999f08b7f5bdbc42ae7a44146f3926464335cfa4a0",
+        "size_in_bytes": 3731480
+      },
+      {
+        "_path": "bin/illumina-dump.2",
+        "path_type": "softlink",
+        "sha256": "b328f0f3da95a1ff1731d9999f08b7f5bdbc42ae7a44146f3926464335cfa4a0",
+        "size_in_bytes": 3731480
+      },
+      {
+        "_path": "bin/illumina-dump.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "b328f0f3da95a1ff1731d9999f08b7f5bdbc42ae7a44146f3926464335cfa4a0",
+        "sha256_in_prefix": "b328f0f3da95a1ff1731d9999f08b7f5bdbc42ae7a44146f3926464335cfa4a0",
+        "size_in_bytes": 3731480
+      },
+      {
+        "_path": "bin/kar",
+        "path_type": "softlink",
+        "sha256": "a8fe42dada496dc00ab56de3fab4a63b2e0df26e465a628519142ed901239ce9",
+        "size_in_bytes": 3611824
+      },
+      {
+        "_path": "bin/kar.2",
+        "path_type": "softlink",
+        "sha256": "a8fe42dada496dc00ab56de3fab4a63b2e0df26e465a628519142ed901239ce9",
+        "size_in_bytes": 3611824
+      },
+      {
+        "_path": "bin/kar.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "a8fe42dada496dc00ab56de3fab4a63b2e0df26e465a628519142ed901239ce9",
+        "sha256_in_prefix": "a8fe42dada496dc00ab56de3fab4a63b2e0df26e465a628519142ed901239ce9",
+        "size_in_bytes": 3611824
+      },
+      {
+        "_path": "bin/kdbmeta",
+        "path_type": "softlink",
+        "sha256": "1a8bdb7bdae545e383347d6e59fc1c6cd4148cc375a353a552f3df19a9041260",
+        "size_in_bytes": 3802984
+      },
+      {
+        "_path": "bin/kdbmeta.2",
+        "path_type": "softlink",
+        "sha256": "1a8bdb7bdae545e383347d6e59fc1c6cd4148cc375a353a552f3df19a9041260",
+        "size_in_bytes": 3802984
+      },
+      {
+        "_path": "bin/kdbmeta.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "1a8bdb7bdae545e383347d6e59fc1c6cd4148cc375a353a552f3df19a9041260",
+        "sha256_in_prefix": "1a8bdb7bdae545e383347d6e59fc1c6cd4148cc375a353a552f3df19a9041260",
+        "size_in_bytes": 3802984
+      },
+      {
+        "_path": "bin/kget",
+        "path_type": "softlink",
+        "sha256": "33601a75d953cf22241a500953bc1f2c71d458b502d1161ac14876131ffaf660",
+        "size_in_bytes": 3599032
+      },
+      {
+        "_path": "bin/kget.2",
+        "path_type": "softlink",
+        "sha256": "33601a75d953cf22241a500953bc1f2c71d458b502d1161ac14876131ffaf660",
+        "size_in_bytes": 3599032
+      },
+      {
+        "_path": "bin/kget.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "33601a75d953cf22241a500953bc1f2c71d458b502d1161ac14876131ffaf660",
+        "sha256_in_prefix": "33601a75d953cf22241a500953bc1f2c71d458b502d1161ac14876131ffaf660",
+        "size_in_bytes": 3599032
+      },
+      {
+        "_path": "bin/latf-load",
+        "path_type": "softlink",
+        "sha256": "6f80307027184303cfb05d615ab36f18a8445d862700583b34a90d2da6b6e49b",
+        "size_in_bytes": 3934120
+      },
+      {
+        "_path": "bin/latf-load.2",
+        "path_type": "softlink",
+        "sha256": "6f80307027184303cfb05d615ab36f18a8445d862700583b34a90d2da6b6e49b",
+        "size_in_bytes": 3934120
+      },
+      {
+        "_path": "bin/latf-load.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "6f80307027184303cfb05d615ab36f18a8445d862700583b34a90d2da6b6e49b",
+        "sha256_in_prefix": "6f80307027184303cfb05d615ab36f18a8445d862700583b34a90d2da6b6e49b",
+        "size_in_bytes": 3934120
+      },
+      {
+        "_path": "bin/magic",
+        "path_type": "hardlink",
+        "sha256": "a0cb0c8098b9e0c8c4e7db7019577c4dcfd3724b9b8054e6184fa2a74aae032b",
+        "sha256_in_prefix": "a0cb0c8098b9e0c8c4e7db7019577c4dcfd3724b9b8054e6184fa2a74aae032b",
+        "size_in_bytes": 659196
+      },
+      {
+        "_path": "bin/md5cp",
+        "path_type": "softlink",
+        "sha256": "051f33ccb3e493483e69f57f351ae4490d0497e35638358eb5905f4e0f37bdad",
+        "size_in_bytes": 3597832
+      },
+      {
+        "_path": "bin/md5cp.2",
+        "path_type": "softlink",
+        "sha256": "051f33ccb3e493483e69f57f351ae4490d0497e35638358eb5905f4e0f37bdad",
+        "size_in_bytes": 3597832
+      },
+      {
+        "_path": "bin/md5cp.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "051f33ccb3e493483e69f57f351ae4490d0497e35638358eb5905f4e0f37bdad",
+        "sha256_in_prefix": "051f33ccb3e493483e69f57f351ae4490d0497e35638358eb5905f4e0f37bdad",
+        "size_in_bytes": 3597832
+      },
+      {
+        "_path": "bin/prefetch",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/prefetch-orig",
+        "path_type": "softlink",
+        "sha256": "7bef331057e0fb37a8610d5258af0fce14e6de0585d55273dda4bc4ef9a26e0e",
+        "size_in_bytes": 3707752
+      },
+      {
+        "_path": "bin/prefetch-orig.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "7bef331057e0fb37a8610d5258af0fce14e6de0585d55273dda4bc4ef9a26e0e",
+        "sha256_in_prefix": "7bef331057e0fb37a8610d5258af0fce14e6de0585d55273dda4bc4ef9a26e0e",
+        "size_in_bytes": 3707752
+      },
+      {
+        "_path": "bin/prefetch.2",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/prefetch.2.10.8",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/rcexplain",
+        "path_type": "softlink",
+        "sha256": "ab834a19b839aa6e683facc0e0a74edeae3808cf3c19d80e6114ffa86d0b2a03",
+        "size_in_bytes": 3588568
+      },
+      {
+        "_path": "bin/rcexplain.2",
+        "path_type": "softlink",
+        "sha256": "ab834a19b839aa6e683facc0e0a74edeae3808cf3c19d80e6114ffa86d0b2a03",
+        "size_in_bytes": 3588568
+      },
+      {
+        "_path": "bin/rcexplain.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "ab834a19b839aa6e683facc0e0a74edeae3808cf3c19d80e6114ffa86d0b2a03",
+        "sha256_in_prefix": "ab834a19b839aa6e683facc0e0a74edeae3808cf3c19d80e6114ffa86d0b2a03",
+        "size_in_bytes": 3588568
+      },
+      {
+        "_path": "bin/read-filter-redact",
+        "path_type": "softlink",
+        "sha256": "56afbbfc52cf840a9b8c3657e489be1fb43b9bf828c534be21ef75f92a2b6d4d",
+        "size_in_bytes": 3803432
+      },
+      {
+        "_path": "bin/read-filter-redact.2",
+        "path_type": "softlink",
+        "sha256": "56afbbfc52cf840a9b8c3657e489be1fb43b9bf828c534be21ef75f92a2b6d4d",
+        "size_in_bytes": 3803432
+      },
+      {
+        "_path": "bin/read-filter-redact.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "56afbbfc52cf840a9b8c3657e489be1fb43b9bf828c534be21ef75f92a2b6d4d",
+        "sha256_in_prefix": "56afbbfc52cf840a9b8c3657e489be1fb43b9bf828c534be21ef75f92a2b6d4d",
+        "size_in_bytes": 3803432
+      },
+      {
+        "_path": "bin/sam-dump",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/sam-dump-orig",
+        "path_type": "softlink",
+        "sha256": "cf2cc5e17b658be56db0c00d700d97d04a4e77ada4135d6edadd86c5fded7ebc",
+        "size_in_bytes": 3837792
+      },
+      {
+        "_path": "bin/sam-dump-orig.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "cf2cc5e17b658be56db0c00d700d97d04a4e77ada4135d6edadd86c5fded7ebc",
+        "sha256_in_prefix": "cf2cc5e17b658be56db0c00d700d97d04a4e77ada4135d6edadd86c5fded7ebc",
+        "size_in_bytes": 3837792
+      },
+      {
+        "_path": "bin/sam-dump.2",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/sam-dump.2.10.8",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/sff-dump",
+        "path_type": "softlink",
+        "sha256": "c693d3480c27163bf0b87e85b49f97748839e2dbb49b131c62f5c58589396c61",
+        "size_in_bytes": 3722576
+      },
+      {
+        "_path": "bin/sff-dump.2",
+        "path_type": "softlink",
+        "sha256": "c693d3480c27163bf0b87e85b49f97748839e2dbb49b131c62f5c58589396c61",
+        "size_in_bytes": 3722576
+      },
+      {
+        "_path": "bin/sff-dump.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "c693d3480c27163bf0b87e85b49f97748839e2dbb49b131c62f5c58589396c61",
+        "sha256_in_prefix": "c693d3480c27163bf0b87e85b49f97748839e2dbb49b131c62f5c58589396c61",
+        "size_in_bytes": 3722576
+      },
+      {
+        "_path": "bin/sra-pileup",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/sra-pileup-orig",
+        "path_type": "softlink",
+        "sha256": "610a2e1280672dd76ebea7fda9b5f90b7c5335ccd45678d8151fd0e219918165",
+        "size_in_bytes": 3734712
+      },
+      {
+        "_path": "bin/sra-pileup-orig.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "610a2e1280672dd76ebea7fda9b5f90b7c5335ccd45678d8151fd0e219918165",
+        "sha256_in_prefix": "610a2e1280672dd76ebea7fda9b5f90b7c5335ccd45678d8151fd0e219918165",
+        "size_in_bytes": 3734712
+      },
+      {
+        "_path": "bin/sra-pileup.2",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/sra-pileup.2.10.8",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/sra-sort",
+        "path_type": "softlink",
+        "sha256": "5eefa4e353c15e639ebec942e1da05442efdbcda136a221601f89ae8eba0ee09",
+        "size_in_bytes": 4014584
+      },
+      {
+        "_path": "bin/sra-sort-cg",
+        "path_type": "softlink",
+        "sha256": "3155efb6afadd162c6e4e7c20e49f54d82613d2011db5fe2ad6cc8f828d44fce",
+        "size_in_bytes": 4015024
+      },
+      {
+        "_path": "bin/sra-sort-cg.2",
+        "path_type": "softlink",
+        "sha256": "3155efb6afadd162c6e4e7c20e49f54d82613d2011db5fe2ad6cc8f828d44fce",
+        "size_in_bytes": 4015024
+      },
+      {
+        "_path": "bin/sra-sort-cg.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "3155efb6afadd162c6e4e7c20e49f54d82613d2011db5fe2ad6cc8f828d44fce",
+        "sha256_in_prefix": "3155efb6afadd162c6e4e7c20e49f54d82613d2011db5fe2ad6cc8f828d44fce",
+        "size_in_bytes": 4015024
+      },
+      {
+        "_path": "bin/sra-sort.2",
+        "path_type": "softlink",
+        "sha256": "5eefa4e353c15e639ebec942e1da05442efdbcda136a221601f89ae8eba0ee09",
+        "size_in_bytes": 4014584
+      },
+      {
+        "_path": "bin/sra-sort.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "5eefa4e353c15e639ebec942e1da05442efdbcda136a221601f89ae8eba0ee09",
+        "sha256_in_prefix": "5eefa4e353c15e639ebec942e1da05442efdbcda136a221601f89ae8eba0ee09",
+        "size_in_bytes": 4014584
+      },
+      {
+        "_path": "bin/sra-stat",
+        "path_type": "softlink",
+        "sha256": "e8ddb32477242c70c5c17859bc7c22f0d28c53c4b5b4b01424ec7a3c47d2cba4",
+        "size_in_bytes": 3684816
+      },
+      {
+        "_path": "bin/sra-stat.2",
+        "path_type": "softlink",
+        "sha256": "e8ddb32477242c70c5c17859bc7c22f0d28c53c4b5b4b01424ec7a3c47d2cba4",
+        "size_in_bytes": 3684816
+      },
+      {
+        "_path": "bin/sra-stat.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "e8ddb32477242c70c5c17859bc7c22f0d28c53c4b5b4b01424ec7a3c47d2cba4",
+        "sha256_in_prefix": "e8ddb32477242c70c5c17859bc7c22f0d28c53c4b5b4b01424ec7a3c47d2cba4",
+        "size_in_bytes": 3684816
+      },
+      {
+        "_path": "bin/srapath",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/srapath-orig",
+        "path_type": "softlink",
+        "sha256": "e6cee2f889c2419daadace1cf1338eb1af4a152db06ad5da4378fbedb539a18b",
+        "size_in_bytes": 3629816
+      },
+      {
+        "_path": "bin/srapath-orig.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "e6cee2f889c2419daadace1cf1338eb1af4a152db06ad5da4378fbedb539a18b",
+        "sha256_in_prefix": "e6cee2f889c2419daadace1cf1338eb1af4a152db06ad5da4378fbedb539a18b",
+        "size_in_bytes": 3629816
+      },
+      {
+        "_path": "bin/srapath.2",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/srapath.2.10.8",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/sratools",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/sratools.2",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/sratools.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "sha256_in_prefix": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/test-sra",
+        "path_type": "softlink",
+        "sha256": "9be0228860acd003df1e34b1df48a3190a4ffbd3bcf1778b310f2d3542ad07c3",
+        "size_in_bytes": 3683944
+      },
+      {
+        "_path": "bin/test-sra.2",
+        "path_type": "softlink",
+        "sha256": "9be0228860acd003df1e34b1df48a3190a4ffbd3bcf1778b310f2d3542ad07c3",
+        "size_in_bytes": 3683944
+      },
+      {
+        "_path": "bin/test-sra.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "9be0228860acd003df1e34b1df48a3190a4ffbd3bcf1778b310f2d3542ad07c3",
+        "sha256_in_prefix": "9be0228860acd003df1e34b1df48a3190a4ffbd3bcf1778b310f2d3542ad07c3",
+        "size_in_bytes": 3683944
+      },
+      {
+        "_path": "bin/vdb-config",
+        "path_type": "softlink",
+        "sha256": "4a04ce9a416817eb8f8a03cc9ecdefe74b211e3b180dac9502cbc557a3cb62c0",
+        "size_in_bytes": 9823008
+      },
+      {
+        "_path": "bin/vdb-config.2",
+        "path_type": "softlink",
+        "sha256": "4a04ce9a416817eb8f8a03cc9ecdefe74b211e3b180dac9502cbc557a3cb62c0",
+        "size_in_bytes": 9823008
+      },
+      {
+        "_path": "bin/vdb-config.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "4a04ce9a416817eb8f8a03cc9ecdefe74b211e3b180dac9502cbc557a3cb62c0",
+        "sha256_in_prefix": "4a04ce9a416817eb8f8a03cc9ecdefe74b211e3b180dac9502cbc557a3cb62c0",
+        "size_in_bytes": 9823008
+      },
+      {
+        "_path": "bin/vdb-copy",
+        "path_type": "softlink",
+        "sha256": "a407e7c195944e4e641f10afc1890c86cc0c49dbcf0e04266171772db6e263eb",
+        "size_in_bytes": 3873560
+      },
+      {
+        "_path": "bin/vdb-copy.2",
+        "path_type": "softlink",
+        "sha256": "a407e7c195944e4e641f10afc1890c86cc0c49dbcf0e04266171772db6e263eb",
+        "size_in_bytes": 3873560
+      },
+      {
+        "_path": "bin/vdb-copy.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "a407e7c195944e4e641f10afc1890c86cc0c49dbcf0e04266171772db6e263eb",
+        "sha256_in_prefix": "a407e7c195944e4e641f10afc1890c86cc0c49dbcf0e04266171772db6e263eb",
+        "size_in_bytes": 3873560
+      },
+      {
+        "_path": "bin/vdb-decrypt",
+        "path_type": "softlink",
+        "sha256": "7dd018530ccfb14b724a9ced5cfc3ccd3cc6165210db278e2ed7a563f34e57d3",
+        "size_in_bytes": 3602664
+      },
+      {
+        "_path": "bin/vdb-decrypt.2",
+        "path_type": "softlink",
+        "sha256": "7dd018530ccfb14b724a9ced5cfc3ccd3cc6165210db278e2ed7a563f34e57d3",
+        "size_in_bytes": 3602664
+      },
+      {
+        "_path": "bin/vdb-decrypt.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "7dd018530ccfb14b724a9ced5cfc3ccd3cc6165210db278e2ed7a563f34e57d3",
+        "sha256_in_prefix": "7dd018530ccfb14b724a9ced5cfc3ccd3cc6165210db278e2ed7a563f34e57d3",
+        "size_in_bytes": 3602664
+      },
+      {
+        "_path": "bin/vdb-diff",
+        "path_type": "softlink",
+        "sha256": "32dba2fe027dfbb6941c5c485a11d5328e0b473d58af0be816e823a1bab4dd9e",
+        "size_in_bytes": 3621656
+      },
+      {
+        "_path": "bin/vdb-diff.2",
+        "path_type": "softlink",
+        "sha256": "32dba2fe027dfbb6941c5c485a11d5328e0b473d58af0be816e823a1bab4dd9e",
+        "size_in_bytes": 3621656
+      },
+      {
+        "_path": "bin/vdb-diff.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "32dba2fe027dfbb6941c5c485a11d5328e0b473d58af0be816e823a1bab4dd9e",
+        "sha256_in_prefix": "32dba2fe027dfbb6941c5c485a11d5328e0b473d58af0be816e823a1bab4dd9e",
+        "size_in_bytes": 3621656
+      },
+      {
+        "_path": "bin/vdb-dump",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/vdb-dump-orig.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "a4d992dbdd8a3fed2f77d008261a7a61a7fb7698686e84937d71781a40dd43a0",
+        "sha256_in_prefix": "a4d992dbdd8a3fed2f77d008261a7a61a7fb7698686e84937d71781a40dd43a0",
+        "size_in_bytes": 3790000
+      },
+      {
+        "_path": "bin/vdb-dump.2",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/vdb-dump.2.10.8",
+        "path_type": "softlink",
+        "sha256": "aaa94f77bb7641d54d3bd15e0f0135fe9fd025907c47c9a29d6884c510d50f4b",
+        "size_in_bytes": 9139184
+      },
+      {
+        "_path": "bin/vdb-encrypt",
+        "path_type": "softlink",
+        "sha256": "2d8edc83b6c22abdc0e51705425c0196be5edc9e8aa95c9cda15982f4684fd81",
+        "size_in_bytes": 3602496
+      },
+      {
+        "_path": "bin/vdb-encrypt.2",
+        "path_type": "softlink",
+        "sha256": "2d8edc83b6c22abdc0e51705425c0196be5edc9e8aa95c9cda15982f4684fd81",
+        "size_in_bytes": 3602496
+      },
+      {
+        "_path": "bin/vdb-encrypt.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "2d8edc83b6c22abdc0e51705425c0196be5edc9e8aa95c9cda15982f4684fd81",
+        "sha256_in_prefix": "2d8edc83b6c22abdc0e51705425c0196be5edc9e8aa95c9cda15982f4684fd81",
+        "size_in_bytes": 3602496
+      },
+      {
+        "_path": "bin/vdb-lock",
+        "path_type": "softlink",
+        "sha256": "b72f1fdba70c9ba17c7e5ffd3b1bb2c5037233a1c5e066076a6b873428cb6012",
+        "size_in_bytes": 3785664
+      },
+      {
+        "_path": "bin/vdb-lock.2",
+        "path_type": "softlink",
+        "sha256": "b72f1fdba70c9ba17c7e5ffd3b1bb2c5037233a1c5e066076a6b873428cb6012",
+        "size_in_bytes": 3785664
+      },
+      {
+        "_path": "bin/vdb-lock.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "b72f1fdba70c9ba17c7e5ffd3b1bb2c5037233a1c5e066076a6b873428cb6012",
+        "sha256_in_prefix": "b72f1fdba70c9ba17c7e5ffd3b1bb2c5037233a1c5e066076a6b873428cb6012",
+        "size_in_bytes": 3785664
+      },
+      {
+        "_path": "bin/vdb-passwd",
+        "path_type": "softlink",
+        "sha256": "e894e55677c30ab7a24fb18510891584a5a3852ec37aa037ae1ea428922a7fbc",
+        "size_in_bytes": 3588800
+      },
+      {
+        "_path": "bin/vdb-passwd.2",
+        "path_type": "softlink",
+        "sha256": "e894e55677c30ab7a24fb18510891584a5a3852ec37aa037ae1ea428922a7fbc",
+        "size_in_bytes": 3588800
+      },
+      {
+        "_path": "bin/vdb-passwd.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "e894e55677c30ab7a24fb18510891584a5a3852ec37aa037ae1ea428922a7fbc",
+        "sha256_in_prefix": "e894e55677c30ab7a24fb18510891584a5a3852ec37aa037ae1ea428922a7fbc",
+        "size_in_bytes": 3588800
+      },
+      {
+        "_path": "bin/vdb-unlock",
+        "path_type": "softlink",
+        "sha256": "60d92403dae4ab6a94564d3a24a0849a6f5766c7773683eeaceb9a9ace5f33fa",
+        "size_in_bytes": 3785664
+      },
+      {
+        "_path": "bin/vdb-unlock.2",
+        "path_type": "softlink",
+        "sha256": "60d92403dae4ab6a94564d3a24a0849a6f5766c7773683eeaceb9a9ace5f33fa",
+        "size_in_bytes": 3785664
+      },
+      {
+        "_path": "bin/vdb-unlock.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "60d92403dae4ab6a94564d3a24a0849a6f5766c7773683eeaceb9a9ace5f33fa",
+        "sha256_in_prefix": "60d92403dae4ab6a94564d3a24a0849a6f5766c7773683eeaceb9a9ace5f33fa",
+        "size_in_bytes": 3785664
+      },
+      {
+        "_path": "bin/vdb-validate",
+        "path_type": "softlink",
+        "sha256": "95bd2dc43e3aaba0ed96abadd9d7becf5530c7c2d1d4c6a10e6c13261b30d1ab",
+        "size_in_bytes": 3641024
+      },
+      {
+        "_path": "bin/vdb-validate.2",
+        "path_type": "softlink",
+        "sha256": "95bd2dc43e3aaba0ed96abadd9d7becf5530c7c2d1d4c6a10e6c13261b30d1ab",
+        "size_in_bytes": 3641024
+      },
+      {
+        "_path": "bin/vdb-validate.2.10.8",
+        "path_type": "hardlink",
+        "sha256": "95bd2dc43e3aaba0ed96abadd9d7becf5530c7c2d1d4c6a10e6c13261b30d1ab",
+        "sha256_in_prefix": "95bd2dc43e3aaba0ed96abadd9d7becf5530c7c2d1d4c6a10e6c13261b30d1ab",
+        "size_in_bytes": 3641024
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "sra-tools==2.10.8=pl526haddd2b5_0",
+  "sha256": "f204b7b013376558e555e4c1f5816af0e3018f8c66dd2b6f13590602ad45d9d2",
+  "size": 63438298,
+  "subdir": "linux-64",
+  "timestamp": 1593724394805,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64/sra-tools-2.10.8-pl526haddd2b5_0.tar.bz2",
+  "version": "2.10.8"
+}

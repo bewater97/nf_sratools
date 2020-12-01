@@ -1,0 +1,13 @@
+prefix=/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

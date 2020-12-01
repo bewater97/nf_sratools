@@ -1,0 +1,52 @@
+==> 2020-11-30 14:46:34 <==
+# cmd: /home/yehz/anaconda3/bin/conda-env create --prefix /data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d --file /data/yehz/nextflow/SRAdownload/sratools/nextflow_sra.yaml
+# conda version: 4.8.4
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::c-ares-1.11.0-h470a237_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::ncbi-ngs-sdk-2.10.4-h3e72335_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-app-cpanminus-1.7044-pl526_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-business-isbn-3.004-pl526_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-business-isbn-data-20140910.003-pl526_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-carp-1.38-pl526_3
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-constant-1.33-pl526_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-data-dumper-2.173-pl526_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-encode-2.88-pl526_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-exporter-5.72-pl526_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-extutils-makemaker-7.36-pl526_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-file-path-2.16-pl526_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-file-temp-0.2304-pl526_2
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-mime-base64-3.15-pl526_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-parent-0.236-pl526_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-uri-1.76-pl526_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-xml-libxml-2.0132-pl526h7ec2d77_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-xml-namespacesupport-1.12-pl526_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-xml-sax-base-1.09-pl526_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::perl-xsloader-0.24-pl526_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/linux-64::sra-tools-2.10.8-pl526haddd2b5_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/noarch::perl-xml-sax-1.02-pl526_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::_openmp_mutex-4.5-1_gnu
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::ca-certificates-2020.11.8-ha878542_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::curl-7.71.1-he644dc0_8
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::hdf5-1.10.5-nompi_h2750804_1111
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::icu-67.1-he1b5a44_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::krb5-1.17.2-h926e7f8_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libcurl-7.71.1-hcdd3856_8
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libedit-3.1.20191231-he28a2e2_2
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libev-4.33-h516909a_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libgcc-ng-9.3.0-h5dbcf3e_17
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libgfortran-ng-9.3.0-he4bcb1c_17
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libgfortran5-9.3.0-he4bcb1c_17
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libgomp-9.3.0-h5dbcf3e_17
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libiconv-1.16-h516909a_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libnghttp2-1.41.0-hab1572f_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libssh2-1.9.0-hab1572f_5
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libstdcxx-ng-9.3.0-h2ae2ef3_17
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::libxml2-2.9.10-h68273f3_2
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::ncurses-6.2-h58526e2_4
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::openssl-1.1.1h-h516909a_0
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::ossuuid-1.6.2-hf484d3e_1000
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::perl-5.26.2-h36c2ea0_1008
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::tk-8.6.10-hed695b0_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::xz-5.2.5-h516909a_1
++https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64::zlib-1.2.11-h516909a_1010
+# update specs: ['zlib==1.2.11=h516909a_1010', 'perl-xml-sax-base==1.09=pl526_0', 'perl-constant==1.33=pl526_1', 'curl==7.71.1=he644dc0_8', 'perl==5.26.2=h36c2ea0_1008', 'perl-xml-sax==1.02=pl526_0', 'perl-app-cpanminus==1.7044=pl526_1', 'openssl==1.1.1h=h516909a_0', 'perl-business-isbn==3.004=pl526_0', 'libnghttp2==1.41.0=hab1572f_1', 'libcurl==7.71.1=hcdd3856_8', 'ncurses==6.2=h58526e2_4', 'tk==8.6.10=hed695b0_1', 'perl-encode==2.88=pl526_1', 'perl-parent==0.236=pl526_1', 'perl-file-path==2.16=pl526_0', 'perl-xml-namespacesupport==1.12=pl526_0', 'sra-tools==2.10.8=pl526haddd2b5_0', '_libgcc_mutex==0.1=conda_forge', 'libev==4.33=h516909a_1', 'libgfortran-ng==9.3.0=he4bcb1c_17', 'krb5==1.17.2=h926e7f8_0', 'libedit==3.1.20191231=he28a2e2_2', 'libssh2==1.9.0=hab1572f_5', '_openmp_mutex==4.5=1_gnu', 'xz==5.2.5=h516909a_1', 'perl-xsloader==0.24=pl526_0', 'perl-exporter==5.72=pl526_1', 'libgcc-ng==9.3.0=h5dbcf3e_17', 'perl-extutils-makemaker==7.36=pl526_1', 'ossuuid==1.6.2=hf484d3e_1000', 'c-ares==1.11.0=h470a237_1', 'perl-carp==1.38=pl526_3', 'libiconv==1.16=h516909a_0', 'libgomp==9.3.0=h5dbcf3e_17', 'perl-mime-base64==3.15=pl526_1', 'perl-business-isbn-data==20140910.003=pl526_0', 'icu==67.1=he1b5a44_0', 'perl-data-dumper==2.173=pl526_0', 'perl-xml-libxml==2.0132=pl526h7ec2d77_1', 'ncbi-ngs-sdk==2.10.4=h3e72335_1', 'libstdcxx-ng==9.3.0=h2ae2ef3_17', 'perl-file-temp==0.2304=pl526_2', 'perl-uri==1.76=pl526_0', 'libgfortran5==9.3.0=he4bcb1c_17', 'ca-certificates==2020.11.8=ha878542_0', 'hdf5==1.10.5=nompi_h2750804_1111', 'libxml2==2.9.10=h68273f3_2']

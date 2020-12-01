@@ -1,0 +1,136 @@
+{
+  "build": "hf484d3e_1000",
+  "build_number": 1000,
+  "channel": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/yehz/anaconda3/pkgs/ossuuid-1.6.2-hf484d3e_1000",
+  "features": "",
+  "files": [
+    "bin/uuid",
+    "bin/uuid-config",
+    "include/uuid.h",
+    "lib/libuuid.a",
+    "lib/libuuid.la",
+    "lib/libuuid.so",
+    "lib/libuuid.so.16",
+    "lib/libuuid.so.16.0.22",
+    "lib/pkgconfig/uuid.pc",
+    "share/man/man1/uuid-config.1",
+    "share/man/man1/uuid.1",
+    "share/man/man3/uuid.3"
+  ],
+  "fn": "ossuuid-1.6.2-hf484d3e_1000.tar.bz2",
+  "license": "GPL",
+  "link": {
+    "source": "/home/yehz/anaconda3/pkgs/ossuuid-1.6.2-hf484d3e_1000",
+    "type": 1
+  },
+  "md5": "0ca24876ead80a9290d3936aea5fefb1",
+  "name": "ossuuid",
+  "package_tarball_full_path": "/home/yehz/anaconda3/pkgs/ossuuid-1.6.2-hf484d3e_1000.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/uuid",
+        "path_type": "hardlink",
+        "sha256": "c804706b22e52b02d450c407e3dbfdec4bc79d8d7ee21ce109e6b8867ad95366",
+        "sha256_in_prefix": "c804706b22e52b02d450c407e3dbfdec4bc79d8d7ee21ce109e6b8867ad95366",
+        "size_in_bytes": 14288
+      },
+      {
+        "_path": "bin/uuid-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "90c5ddc7438057aeea2ce7ee42d1fc35b7255aec6c5e561f27c6645aa2c0760b",
+        "sha256_in_prefix": "bc8c496fea516b261b9440a0f082fc0c26d9f62cbd8443ccd3d6598672d83084",
+        "size_in_bytes": 4669
+      },
+      {
+        "_path": "include/uuid.h",
+        "path_type": "hardlink",
+        "sha256": "faae65d10d829d7d6950f84bf3e5da985825fc6b5726596bd3d0f474d2f5c24b",
+        "sha256_in_prefix": "faae65d10d829d7d6950f84bf3e5da985825fc6b5726596bd3d0f474d2f5c24b",
+        "size_in_bytes": 4383
+      },
+      {
+        "_path": "lib/libuuid.a",
+        "path_type": "hardlink",
+        "sha256": "1b1d36a095f70b236ef2c48a33d757121a7ec23a22e990b2fe8795e14a65275b",
+        "sha256_in_prefix": "1b1d36a095f70b236ef2c48a33d757121a7ec23a22e990b2fe8795e14a65275b",
+        "size_in_bytes": 69804
+      },
+      {
+        "_path": "lib/libuuid.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "7f1e4e62134d046d6d548fa35f49c9911ae8ffc4c8ed936cb961386b95fb53e1",
+        "sha256_in_prefix": "357aae60fcca5fbeca17e6ab8932e7f6f57752b57bc76ce4d8c66718a3ee3961",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "lib/libuuid.so",
+        "path_type": "softlink",
+        "sha256": "a131087a0c3a179e429af95bd863c12880f53d0bde49ef6557d261ebef683f33",
+        "size_in_bytes": 58224
+      },
+      {
+        "_path": "lib/libuuid.so.16",
+        "path_type": "softlink",
+        "sha256": "a131087a0c3a179e429af95bd863c12880f53d0bde49ef6557d261ebef683f33",
+        "size_in_bytes": 58224
+      },
+      {
+        "_path": "lib/libuuid.so.16.0.22",
+        "path_type": "hardlink",
+        "sha256": "a131087a0c3a179e429af95bd863c12880f53d0bde49ef6557d261ebef683f33",
+        "sha256_in_prefix": "a131087a0c3a179e429af95bd863c12880f53d0bde49ef6557d261ebef683f33",
+        "size_in_bytes": 58224
+      },
+      {
+        "_path": "lib/pkgconfig/uuid.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "80a2b837d75783a5964c3403ace7c6a33e59601529b67a57326416a02cc20537",
+        "sha256_in_prefix": "3191a406b1b9e7f281e8a6dcb01a73cc28f3a626021280f6ea96769a09b29b6e",
+        "size_in_bytes": 1704
+      },
+      {
+        "_path": "share/man/man1/uuid-config.1",
+        "path_type": "hardlink",
+        "sha256": "ebc23ea53ba159eb5ba1537de2e6a3239205935c19aa048727b967b52a504a50",
+        "sha256_in_prefix": "ebc23ea53ba159eb5ba1537de2e6a3239205935c19aa048727b967b52a504a50",
+        "size_in_bytes": 7197
+      },
+      {
+        "_path": "share/man/man1/uuid.1",
+        "path_type": "hardlink",
+        "sha256": "69578a3502da7b2f135770750276cd7eaf821ad5f7b05c5b29c1afc611c696e2",
+        "sha256_in_prefix": "69578a3502da7b2f135770750276cd7eaf821ad5f7b05c5b29c1afc611c696e2",
+        "size_in_bytes": 10798
+      },
+      {
+        "_path": "share/man/man3/uuid.3",
+        "path_type": "hardlink",
+        "sha256": "ad21d046ab52d687274a40e84d12e52d9a825b9f10c6dd514165b6781602be27",
+        "sha256_in_prefix": "ad21d046ab52d687274a40e84d12e52d9a825b9f10c6dd514165b6781602be27",
+        "size_in_bytes": 28713
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ossuuid==1.6.2=hf484d3e_1000",
+  "sha256": "9879a6c9be1c54cc6be2e3354ecf81feab7e6947f116baa2c1e3c03dc7343673",
+  "size": 56891,
+  "subdir": "linux-64",
+  "timestamp": 1535823519264,
+  "track_features": "",
+  "url": "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/linux-64/ossuuid-1.6.2-hf484d3e_1000.tar.bz2",
+  "version": "1.6.2"
+}

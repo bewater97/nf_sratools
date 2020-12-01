@@ -1,0 +1,6 @@
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/lib/site_perl/5.26.2/Business/ISBN.pm relocate_as=../../../../Business/ISBN.pm
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/lib/site_perl/5.26.2/Business/ISBN10.pm relocate_as=../../../../Business/ISBN10.pm
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/lib/site_perl/5.26.2/Business/ISBN13.pm relocate_as=../../../../Business/ISBN13.pm
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/man/man3/Business::ISBN.3 relocate_as=../../../../../../../man/man3/Business::ISBN.3
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/man/man3/Business::ISBN10.3 relocate_as=../../../../../../../man/man3/Business::ISBN10.3
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/man/man3/Business::ISBN13.3 relocate_as=../../../../../../../man/man3/Business::ISBN13.3

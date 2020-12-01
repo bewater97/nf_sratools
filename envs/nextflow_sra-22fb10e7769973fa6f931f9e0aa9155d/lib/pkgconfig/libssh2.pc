@@ -1,0 +1,17 @@
+###########################################################################
+# libssh2 installation details
+###########################################################################
+
+prefix=/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libssh2
+URL: https://www.libssh2.org/
+Description: The SSH library
+Version: 1.9.0
+Requires.private: libssl,libcrypto,zlib
+Libs: -L${libdir} -lssh2 
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,3 @@
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/lib/site_perl/5.26.2/x86_64-linux-thread-multi/Data/Dumper.pm relocate_as=../../../Data/Dumper.pm
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/lib/site_perl/5.26.2/x86_64-linux-thread-multi/auto/Data/Dumper/Dumper.so relocate_as=Dumper.so
+/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d/man/man3/Data::Dumper.3 relocate_as=../../../../../../../man/man3/Data::Dumper.3

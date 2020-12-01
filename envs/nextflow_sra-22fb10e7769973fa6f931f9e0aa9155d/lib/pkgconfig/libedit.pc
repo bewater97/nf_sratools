@@ -1,0 +1,13 @@
+prefix=/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libedit
+Description: command line editor library provides generic line editing, history, and tokenization functions.
+Version: 3.1
+Requires:
+Libs: -L${libdir} -ledit
+Libs.private: -lncurses 
+Cflags: -I${includedir} -I${includedir}/editline
+

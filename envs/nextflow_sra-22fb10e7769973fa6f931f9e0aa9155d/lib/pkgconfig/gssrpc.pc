@@ -1,0 +1,12 @@
+prefix=/data/yehz/nextflow/SRAdownload/sratools/envs/nextflow_sra-22fb10e7769973fa6f931f9e0aa9155d
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+Name: gssrpc
+Description: GSSAPI RPC implementation
+Version: 1.17.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgssrpc
+Requires.private: mit-krb5-gssapi
